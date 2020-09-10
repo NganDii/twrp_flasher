@@ -3,6 +3,8 @@ clear
 echo "Make Twrp flasher for Qualcomm by Rem Apple"
 echo "Press enter to continue"
 read any
+cd ~/
+rm -rf twrp_flasher
 rm -rf /sdcard/twrp_flasher
 mkdir /sdcard/twrp_flasher
 clear
@@ -18,5 +20,10 @@ echo "Now copy your recovery.img file to sdcard/twrp_flasher"
 echo "And rename it to twrp.img"
 echo "PRESS ENTER WHEN DONE"
 read any
+cd /sdcard
 zip -r rem_recovery.zip twrp_flasher/
+rm -rf twrp_flasher
+mkdir /sdcard/Flashers
+mv /sdcard/rem_recovery.zip /sdcard/Flashers
 echo "Successful"
+
