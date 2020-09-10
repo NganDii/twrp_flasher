@@ -1,3 +1,5 @@
+pkg install zip
+clear
 echo "Make Twrp flasher for Qualcomm by Rem Apple"
 echo "Press enter to continue"
 read any
