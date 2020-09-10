@@ -27,6 +27,6 @@ cd /sdcard
 zip -r $r.zip twrp_flasher/
 rm -rf twrp_flasher
 mkdir /sdcard/Flashers
-mv /sdcard/rem_recovery.zip /sdcard/Flashers
+mv /sdcard/$r.zip /sdcard/Flashers
 echo "Successful"
 
